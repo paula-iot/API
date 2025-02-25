@@ -2,7 +2,7 @@ import telebot
 import json
 import os
 
-# Substitua pelo seu TOKEN do BotFather
+# token 
 TOKEN = "TOKEN-TOKEN-TOKEN"
 bot = telebot.TeleBot(TOKEN)
 
