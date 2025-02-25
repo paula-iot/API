@@ -6,20 +6,20 @@ import os
 TOKEN = "TOKEN-TOKEN-TOKEN"
 bot = telebot.TeleBot(TOKEN)
 
-# Nome do arquivo onde armazenamos os dados dos técnicos
+# Nome arquivo  dados dos técnicos
 DATABASE_FILE = "tecnicos_km.json"
 
-# Verifica se o arquivo existe, senão cria um vazio
+# verifica se o arquivo existe, senão cria um vazio
 if not os.path.exists(DATABASE_FILE):
     with open(DATABASE_FILE, "w") as file:
         json.dump({}, file)
 
-# Função para carregar os dados do arquivo JSON
+# função para carregar os dados do arquivo JSON
 def carregar_dados():
     with open(DATABASE_FILE, "r") as file:
         return json.load(file)
 
-# Função para salvar os dados no arquivo JSON
+# função para salvar os dados no arquivo JSON
 def salvar_dados(dados):
     with open(DATABASE_FILE, "w") as file:
         json.dump(dados, file)
