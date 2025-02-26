@@ -3,7 +3,7 @@ import json
 import os
 
 # token 
-TOKEN = "toke-token-token"
+TOKEN = "toke-token-tooken"
 bot = telebot.TeleBot(TOKEN)
 
 # nome do arquivo onde armazenamos os dados dos técnicos
