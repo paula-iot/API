@@ -3,7 +3,7 @@ import json
 import os
 
 # token 
-TOKEN = "7698066035:AAEAxYpj7g4Bz9T1dtzWaFgkYdO-oRCajIg"
+TOKEN = "toke-token-token"
 bot = telebot.TeleBot(TOKEN)
 
 # nome do arquivo onde armazenamos os dados dos técnicos
